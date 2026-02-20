@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materiais da Semana 1</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            max-width: 450px;
+            width: 90%;
+        }
+
+        h2 {
+            color: #1a237e;
+            margin-bottom: 30px;
+        }
+
+        .lista-arquivos {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .card-arquivo {
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            background: #fff;
+            border: 2px solid #e0e0e0;
+            border-radius: 12px;
+            text-decoration: none;
+            color: #333;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .card-arquivo:hover {
+            border-color: #d11111;
+            background-color: #fff5f5;
+            transform: scale(1.02);
+        }
+
+        .icone {
+            font-size: 24px;
+            margin-right: 15px;
+        }
+
+        .voltar {
+            margin-top: 25px;
+            display: inline-block;
+            color: #666;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Semana 01 - Exercícios</h2>
+        
+        <div class="lista-arquivos">
+            <a href="exercicio numero 01.txt" target="_blank" class="card-arquivo">
+                <span class="icone">📄</span>
+                Abrir Exercício Número 01
+            </a>
+
+            <a href="exercicio numero 02.txt" target="_blank" class="card-arquivo">
+                <span class="icone">📄</span>
+                Abrir Exercício Número 02
+            </a>
+        </div>
+
+        <a href="teste.html" class="voltar">← Voltar para o início</a>
+    </div>
+
+</body>
+</html>

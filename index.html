@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de Inglês - Home</title>
+    <style>
+        body {
+            background-image: url('bandeira.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: flex-end; /* Direita */
+            align-items: flex-start;   /* Topo */
+            padding-right: 50px;
+            padding-top: 50px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .menu-semanas {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+            display: flex;
+            flex-direction: column; /* Faz ficar um embaixo do outro */
+            gap: 15px;             /* Espaço entre os botões */
+            width: 200px;          /* Largura fixa para os botões ficarem iguais */
+        }
+
+        .link-semana {
+            color: black;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 12px;
+            border-left: 5px solid #d11111; /* Detalhe em vermelho */
+            background: #f9f9f9;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+
+        .link-semana:hover {
+            background-color: #d11111;
+            color: white;
+            transform: translateX(-5px); /* Efeito de mover levemente ao passar o mouse */
+        }
+
+        h3 {
+            margin: 0 0 10px 0;
+            color: #1a237e;
+            text-align: center;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="menu-semanas">
+        <h3>My Course</h3>
+        
+        <a href="semana1.html" class="link-semana">Semana 01</a>
+        <a href="semana2.html" class="link-semana">Semana 02</a>
+        <a href="semana3.html" class="link-semana">Semana 03</a>
+        <a href="semana4.html" class="link-semana">Semana 04</a>
+    </div>
+
+</body>
+</html>
